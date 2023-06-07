@@ -5,15 +5,15 @@ function Menu() {
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="menu-button"
-            tabindex="-1"
+            tabIndex="-1"
         >
             <div className="py-1" role="none">
                 <div className="shadow-lg shadow-[#4e4e4e] w-[330px] ml-[15px] rounded-[10px] divide-y divide-[#7e7e7e]">
                     <a
                         href={'#s'}
-                        class="text-white block px-4 py-4 text-lg hover:bg-[#3A3B3C] hover:rounded-[5px] m-1"
+                        className="text-white block px-4 py-4 text-lg hover:bg-[#3A3B3C] hover:rounded-[5px] m-1"
                         role="menuitem"
-                        tabindex="-1"
+                        tabIndex="-1"
                         id="menu-item-0"
                     >
                         <div className="absolute w-[35px] h-[35px] left-[28px] top-[20px]">
@@ -26,7 +26,7 @@ function Menu() {
                         href={'#s'}
                         className="text-blue-500 font-semibold text-[16px] block px-4 py-2 hover:bg-[#3A3B3C] hover:rounded-[5px]"
                         role="menuitem"
-                        tabindex="-1"
+                        tabIndex="-1"
                         id="menu-item-1"
                     >
                         Xem tất cả trang cá nhân
@@ -34,9 +34,9 @@ function Menu() {
                 </div>
                 <a
                     href={'#s'}
-                    class="text-white block px-4 py-4 text-[16px] hover:bg-[#3A3B3C] hover:rounded-[10px] mt-4"
+                    className="text-white block px-4 py-4 text-[16px] hover:bg-[#3A3B3C] hover:rounded-[10px] mt-4"
                     role="menuitem"
-                    tabindex="-1"
+                    tabIndex="-1"
                     id="menu-item-0"
                 >
                     <div className="absolute w-[35px] h-[35px] top-[140px] bg-[#5858587f] rounded-full">
@@ -50,9 +50,9 @@ function Menu() {
                 </a>
                 <a
                     href={'#s'}
-                    class="text-white block px-4 py-4 text-[16px] hover:bg-[#3A3B3C] hover:rounded-[10px]"
+                    className="text-white block px-4 py-4 text-[16px] hover:bg-[#3A3B3C] hover:rounded-[10px]"
                     role="menuitem"
-                    tabindex="-1"
+                    tabIndex="-1"
                     id="menu-item-0"
                 >
                     <div className="absolute w-[35px] h-[35px] top-[196px] bg-[#5858587f] rounded-full">
@@ -66,9 +66,9 @@ function Menu() {
                 </a>
                 <a
                     href={'#s'}
-                    class="text-white block px-4 py-4 text-[16px] hover:bg-[#3A3B3C] hover:rounded-[10px]"
+                    className="text-white block px-4 py-4 text-[16px] hover:bg-[#3A3B3C] hover:rounded-[10px]"
                     role="menuitem"
-                    tabindex="-1"
+                    tabIndex="-1"
                     id="menu-item-0"
                 >
                     <div className="absolute w-[35px] h-[35px] top-[252px] bg-[#5858587f] rounded-full">
@@ -82,9 +82,9 @@ function Menu() {
                 </a>
                 <a
                     href={'#s'}
-                    class="text-white block px-4 py-4 text-[16px]  hover:bg-[#3A3B3C] hover:rounded-[10px]"
+                    className="text-white block px-4 py-4 text-[16px]  hover:bg-[#3A3B3C] hover:rounded-[10px]"
                     role="menuitem"
-                    tabindex="-1"
+                    tabIndex="-1"
                     id="menu-item-0"
                 >
                     <div className="absolute w-[35px] h-[35px] top-[308px] bg-[#5858587f] rounded-full">
@@ -102,7 +102,7 @@ function Menu() {
                     type="submit"
                     className="text-white block px-4 py-4 text-[16px] hover:bg-[#3A3B3C] hover:rounded-[10px]"
                     role="menuitem"
-                    tabindex="-1"
+                    tabIndex="-1"
                     id="menu-item-3"
                 >
                     <div className="absolute w-[35px] h-[35px] top-[364px] bg-[#5858587f] rounded-full">

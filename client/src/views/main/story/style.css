@@ -1,0 +1,12 @@
+.next,
+.prev {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 200ms ease;
+}
+
+.next.active,
+.prev.active {
+    opacity: 1;
+    pointer-events: auto;
+}

@@ -6,7 +6,7 @@ function Top() {
     const [show, setShow] = useState(false);
 
     return (
-        <div className="box-border absolute w-[1512px] h-[61px] bg-[#242526] border border-[#3A3B3C]">
+        <div className="box-border fixed w-[1512px] h-[61px] bg-[#242526] border border-[#3A3B3C] z-[100]">
             {/* top-left  */}
             <a href={'#s'} className="bg-[url('./views/top/images/facebook.png')] absolute w-10 h-10 left-4 top-2">
                 {' '}
@@ -14,7 +14,7 @@ function Top() {
             <div className="absolute w-[241px] h-[40px] left-[63px] top-[7px] bg-[#3A3B3C] rounded-full">
                 <div className="absolute w-[15px] h-[15px] left-[12px] top-[13px] bg-[url('./views/top/images/search.png')]"></div>
                 <input
-                    className="focus:outline-none text-[#aeb1b5] text-[15px] leading-[20px] absolute  h-[20px] left-[37px] top-[10px] tracking-[0.02em] bg-[#3A3B3C] ]"
+                    className="focus:outline-none text-[#aeb1b5] text-[15px] leading-[20px] absolute  h-[20px] left-[37px] top-[10px] tracking-[0.02em] bg-[#3A3B3C]"
                     placeholder="Tìm kiếm trên Facebook"
                 />
             </div>
